@@ -1,0 +1,48 @@
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Adjust the height as needed */
+  }
+  
+  /* Style the form */
+  form {
+    width: 300px; /* Adjust the width as needed */
+    margin: 0 auto;
+  }
+  
+  /* Style the label */
+  label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  /* Style the textarea */
+  textarea {
+    width: 100%;
+    height: 100px; /* Adjust the height as needed */
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    color: black; /* Set text color to black */
+  }
+  
+  /* Style the tweet button */
+  button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    background-color: dodgerblue;
+    border: none;
+    border-radius: 4px;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  /* Style the tweet button on hover */
+  button:hover {
+    background-color: #007bff;
+  }

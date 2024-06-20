@@ -1,0 +1,94 @@
+/* profile.css */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .profile-section {
+    margin-top: 20px; /* Adjust as needed */
+  }
+  
+  .profile-header {
+    text-align: center;
+    padding: 20px;
+    background-color: #DE5D83;
+    color: white;
+    border-radius: 10px 10px 0 0;
+  }
+  
+  .profile-picture {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin: 0 auto 10px;
+    display: block; /* Center image */
+  }
+  
+  .profile-name {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+  
+  .profile-username {
+    font-size: 18px;
+  }
+  
+  .profile-bio {
+    font-size: 16px;
+    margin-bottom: 20px;
+  }
+  
+  .profile-stats {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 20px;
+  }
+  
+  .profile-stats div {
+    text-align: center;
+  }
+  
+  .profile-stats h2 {
+    font-size: 18px;
+    color: #00aced;
+    margin-bottom: 5px;
+  }
+  
+  .profile-stats p {
+    color: #00aced;
+    font-size: 16px;
+    font-weight: bold;
+  }
+  
+  .profile-timeline {
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+  }
+  
+  .tweet {
+    margin-bottom: 20px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .tweet p {
+    font-size: 16px;
+    margin-bottom: 5px;
+  }
+  
+  .tweet-date {
+    font-size: 12px;
+    color: #999;
+  }
+  

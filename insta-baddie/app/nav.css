@@ -1,0 +1,49 @@
+﻿/* Nav.css */
+
+.nav-container {
+    margin-top: 0px;
+}
+
+.nav-bar {
+    display: flex;
+    justify-content: space-around;
+    background-color: #f8f8f8;
+    border-radius: 5px;
+    padding: 10px 0;
+}
+
+.nav-item {
+    position: relative;
+    padding: 10px 15px;
+    color: #333;
+    text-decoration: none;
+    transition: color 0.3s ease; /* Smooth transition for text color */
+}
+
+/* Style the line under the button */
+.nav-item::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    width: 0;
+    height: 3px;
+    background: #434961; /* Line color */
+    transition: width 0.3s ease, left 0.3s ease;
+}
+
+/* Expand the line on hover */
+.nav-item:hover::after {
+    width: 100%;
+    left: 0;
+}
+
+/* Change text color on hover if needed */
+.nav-item:hover {
+    color: #333; /* Keep text color the same or adjust as needed */
+}
+
+/* Make buttons round */
+.nav-button {
+    border-radius: 20px;
+}
